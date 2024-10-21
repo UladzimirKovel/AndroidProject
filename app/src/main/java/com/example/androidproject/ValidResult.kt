@@ -1,8 +1,5 @@
 package com.example.androidproject
 
-import android.widget.EditText
-import java.util.regex.Pattern
-
 fun isNameValid(text: String): ValidResult {
     return when {
         text.isBlank() ->
